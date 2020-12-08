@@ -5,6 +5,6 @@ class WebAuth {
   Future<String> authenticate(
       {@required String callbackUrlScheme, @required String url}) async {
     return await FlutterWebAuth.authenticate(
-        callbackUrlScheme: callbackUrlScheme, url: url);
+        callbackUrlScheme: callbackUrlScheme, url: url, saveHistory: false);
   }
 }
