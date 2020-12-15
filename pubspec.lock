@@ -87,7 +87,7 @@ packages:
       path: "."
       ref: HEAD
       resolved-ref: "32b79c4d5087c2bb0fad2b42ade9bada3b15de85"
-      url: "https://github.com/ThexXTURBOXx/flutter_web_auth.git"
+      url: "https://github.com/enterprise-software-systems/flutter_web_auth.git"
     source: git
     version: "0.2.4"
   http:
