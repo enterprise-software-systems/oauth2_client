@@ -15,9 +15,9 @@ dependencies:
   http: ^0.12.1
   flutter_web_auth:
     git: 'https://github.com/enterprise-software-systems/flutter_web_auth.git'
-  random_string: ^2.0.1
-  crypto: ^2.1.4
-  flutter_secure_storage: ^3.3.3
+  random_string: ^2.1.0
+  crypto: ^2.1.5
+  flutter_secure_storage: ^3.3.5
 
 dev_dependencies:
   flutter_test:
