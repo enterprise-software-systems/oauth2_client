@@ -141,7 +141,9 @@ class OAuth2Helper {
     try {
       tknResp = await client.refreshToken(refreshToken,
           clientId: clientId, clientSecret: clientSecret);
-    } catch (_) {
+    } catch (e, st) {
+      print(e);
+      print(st);
       return await fetchToken();
     }
 
